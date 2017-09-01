@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8
-import Ice, sys
+
+# ThePirateWhoSmellsOfSunflowers - https://github.com/ThePirateWhoSmellsOfSunflowers
+
+import Ice
+import sys
 
 messagesizemax = "65535"
 iceslice = "/usr/share/Ice/slice/Murmur.ice"
