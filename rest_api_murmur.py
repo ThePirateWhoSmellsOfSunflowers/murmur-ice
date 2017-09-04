@@ -41,7 +41,7 @@ def get_users():
         server=meta.getServer(1)
     except Exception as e:
         ice.shutdown()
-        return jsonify({'error' : str(e)})
+        return jsonify({'error' : str(e).replace('\n','')})
 
     # Users
     onlineusers = server.getUsers()
