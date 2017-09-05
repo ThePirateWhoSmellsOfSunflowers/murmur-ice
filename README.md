@@ -18,3 +18,9 @@ $ ./chat_with_online_users.py
 <Titi> : yo
 <J4CK> : sup ?
 ```
+## rest_api_murmur.py
+PoC to wrap Mumble API with flask, because Ice su***
+
+implemented route :
+
+* `http://example.com:5000/users` : return in JSON connected users, with mute status (`selfMute`)
